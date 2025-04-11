@@ -25,14 +25,14 @@ export default function Home() {
               className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-blue-500/50 shadow-[0_0_30px_rgba(59,130,246,0.5)]"
             >
               <img
-                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&h=400&fit=crop"
+                src="website-pic.jpg"
                 alt="Makhduma Saiyed"
-                className="w-full h-full object-cover"
+                className="object-cover -ml-2"
               />
             </motion.div>
           </div>
-          
-          <motion.h1 
+
+          <motion.h1
             className="text-6xl md:text-7xl font-bold mb-6 text-gray-900 dark:text-white"
             initial={{ scale: 0.9 }}
             animate={{ scale: 1 }}
@@ -40,7 +40,7 @@ export default function Home() {
           >
             Makhduma Saiyed
           </motion.h1>
-          
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -73,8 +73,8 @@ export default function Home() {
               </motion.div>
             ))}
           </div>
-          
-          <motion.div 
+
+          <motion.div
             className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-16"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -95,7 +95,7 @@ export default function Home() {
               <Mail className="w-5 h-5" />
             </Link>
           </motion.div>
-          
+
           <motion.div
             className="flex justify-center space-x-6"
             initial={{ opacity: 0 }}
